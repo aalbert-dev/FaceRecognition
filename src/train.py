@@ -24,7 +24,7 @@ Parser arguments to allow for easily adjustable model choice, learning rate,
 and batch size. 
 """
 parser = argparse.ArgumentParser(description='SphereFace Implementation')
-parser.add_argument('--net', '-n', default='sphere4a', type=str)
+parser.add_argument('--net', '-n', default='sphere20a', type=str)
 parser.add_argument('--lr', default=0.1, type=float, help='learning rate')
 parser.add_argument('--bs', default=64, type=int, help='')
 args = parser.parse_args()
